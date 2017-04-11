@@ -9,7 +9,7 @@
 
 
 {% block header_logo %}
-{% set action_url = '../images/logo-vrr.jpg' %}
+{% set action_url = '/base/images/logo-vrr.jpg' %}
         {% if g.site_logo %}
           <a class="logo" href="{{ h.url_for('home') }}"><img src="{{ action_url }}" alt="{{ g.site_title }}" title="{{ g.site_title }}" /></a>
         {% else %}
