@@ -13,6 +13,7 @@ else:
 
 class VrrPlugin(VrrPluginBase):
     p.implements(p.IConfigurer)
+    p.implements(p.IRoutes, inherit=True)
 
     # IConfigurer
 
@@ -20,3 +21,17 @@ class VrrPlugin(VrrPluginBase):
         toolkit.add_template_directory(config_, 'templates')
         toolkit.add_public_directory(config_, 'public')
         toolkit.add_resource('fanstatic', 'vrr')
+
+
+        # IRoutes
+
+    def before_map(self, map):
+        vrr_controller = \
+            'ckanext.vrr.controllers.vrr:VrrController'
+
+        map.connect('vrr_api',
+                    '/api',
+                    controller=vrr_controller,
+                    action='api')
+
+        return map
