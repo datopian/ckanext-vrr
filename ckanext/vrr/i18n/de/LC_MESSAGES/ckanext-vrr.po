@@ -49,10 +49,29 @@ msgstr "Was sind Teilbereiche?"
 #: ckanext/vrr/templates/organization/snippets/helper.html:4
 msgid "{number} organization found"
 msgid_plural "{number} organizations found"
-msgstr[0] "{number} Organisation gefunden1"
-msgstr[1] "{number} Organisationen gefunden2"
+msgstr[0] "{number} Teilbereiche gefunden"
+msgstr[1] "{number} Teilbereiche gefunden"
 
 #: ckanext/vrr/templates/organization/snippets/helper.html:8
 msgid " In this section groups of datasets can be created, edited and published.Users have different permissions within organizations that depend on their permission level: create, edit, publish."
 msgstr "In dieser Rubrik können Gruppen von Datensätzen erstellt, bearbeitet und veröffentlicht werden. Benutzer haben verschiedene Berechtigungen innerhalb von Organisationen, die von ihrer Berechtigungsstufe abhängen: erstellen, bearbeiten, veröffentlichen."
 
+#: ckanext/vrr/templates/footer.html:7
+msgid "Imprint"
+msgstr "Impressum"
+
+#: ckanext/vrr/templates/footer.html:8
+msgid "Data privacy"
+msgstr "Datenschutz"
+
+#: ckanext/vrr/templates/footer.html:9
+msgid "More information about VRR"
+msgstr "Weitere Infos zum VRR"
+
+#: ckanext/vrr/templates/footer.html:15
+msgid "Terms of service"
+msgstr "Nutzungsbedingungen"
+
+#: ckanext/vrr/templates/footer.html:16
+msgid "Netiquette"
+msgstr "Netiquette"
