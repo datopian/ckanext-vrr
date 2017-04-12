@@ -1,9 +1,18 @@
-import ckan.plugins as plugins
 import ckan.plugins.toolkit as toolkit
+import ckan.plugins as p
 
 
-class VrrPlugin(plugins.SingletonPlugin):
-    plugins.implements(plugins.IConfigurer)
+if p.toolkit.check_ckan_version(min_version='2.5'):
+    from ckan.lib.plugins import DefaultTranslation
+
+    class VrrPluginBase(p.SingletonPlugin, DefaultTranslation):
+        p.implements(p.ITranslation, inherit=True)
+else:
+    class VrrPluginBase(p.SingletonPlugin):
+        pass
+
+class VrrPlugin(VrrPluginBase):
+    p.implements(p.IConfigurer)
 
     # IConfigurer
 
