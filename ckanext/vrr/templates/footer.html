@@ -1,5 +1,6 @@
 {% ckan_extends %} {% block footer_content %}
 {% set pages_url = 'http://www.openvrr.de/pages' %}
+{% set vrr_url = 'http://www.vrr.de/de' %}
 <div class="row">
     <div class="span4 footer-links">
         <div class="span4 footer-links">
@@ -7,7 +8,7 @@
                 <li><img src="/base/images/vrr-symbol.png" alt="vrr-symbol"></li>
                 <li><a href=" {{ pages_url }}/impressum">{{ _("Imprint") }}</a></li>
                 <li><a href="{{ pages_url }}/datenschutz">{{ _("Data privacy") }}</a></li>
-                <li><a href="http://www.openvrr.de">{{ _("More information about VRR") }}</a></li>
+                <li><a href="{{ vrr_url }}">{{ _("More information about VRR") }}</a></li>
             </ul>
         </div>
     </div>
