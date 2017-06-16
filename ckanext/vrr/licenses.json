@@ -5,13 +5,13 @@
         "domain_data": false,
         "domain_software": false,
         "family": "",
-        "id": "nutzerbedingungen",
+        "id": "nutzungsbedingungen",
         "is_generic": false,
         "maintainer": "",
         "od_conformance": "not reviewed",
         "osd_conformance": "not reviewed",
         "status": "active",
-        "title": "Nutzerbedingungen",
+        "title": "Nutzungsbedingungen",
         "url": "http://www.openvrr.de/pages/nutzungsbedingungen"
     }
 ]
