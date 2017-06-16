@@ -1,6 +1,8 @@
 {% ckan_extends %}
+
 {% block styles %}
-{{ super() }}
-  <link rel="stylesheet" href="/base/css/main.css">
+  {{ super() }}
+  {% resource 'vrr/css/main.css' %}
+
 <link href="https://fonts.googleapis.com/css?family=Lato:400,400i,700,700i" rel="stylesheet">
 {% endblock %}

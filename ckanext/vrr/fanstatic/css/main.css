@@ -104,3 +104,10 @@ body {
 .span4.attribution {
     margin-top: 55px;
 }
+.center_li {
+    width: 50% !important;
+    text-align: center;
+}
+ div .inner > h3{
+    text-align: center;
+ }
