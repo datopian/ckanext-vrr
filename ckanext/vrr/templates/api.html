@@ -3,27 +3,15 @@
   <article class="module">
     <div class="module-content">
      <h1>API OpenVRR</h1>
-     <p>Für die XML-Schnittstelle kann die folgende URL zu unserem Fahrgastinformationssystem genutzt werden:
-         <a href="http://217.70.161.119/static02/XML_STOPFINDER_REQUEST?sessionID=0&requestID=0&language=DE"> XML-Schnittstelle</a>
+     <p>Für die Schnittstelle kann die folgende URL zu unserem Fahrgastinformationssystem genutzt werden: <br>
+         <a href="http://193.26.125.69/"> XML-Schnittstelle</a>
      </p>
-     <p>Wir halten uns frei diesen Zugriff auch für interne Tests zu benutzen, so dass es zeitweise nicht zu plausiblen Ergebnissen kommen kann. Hier eine Beispielanfrage:
-         <a href="http://217.70.161.119/static02/XML_STOPFINDER_REQUEST?sessionID=0&requestID=0&language=DE&coordOutputFormat=WGS84%5bggzhtxx%5d&place_sf=Gelsenkirchen&placeState_sf=empty&type_sf=stop&name_sf=Lukaskirche&nameState_sf=empty&itdDateYear=2011&itdDateMonth=10&itdDateDay=24&itdTimeHour=11&itdTimeMinute=9&coordOutputFormatTail=0"> XML-Schnittstelle</a>
+     <p>Wir halten uns frei diesen Zugriff auch für interne Tests zu benutzen, so dass es zeitweise nicht zu plausiblen Ergebnissen kommen kann.
      </p>
-        <p>In der <a href="http://www.openvrr.de/dataset/dokumentationen">Schnittstellendokumentation</a> werden alle HTTP-Parameter zur Nutzung für folgende Anfragen beschrieben:</p>
-        <ul>
-            <li>StopFinder-Request: Punkt- bzw. Haltestellen-Suche</li>
-            <li>Trip-Request: Anfrage von Fahrtauskünften</li>
-            <li>PS-Request: Anfrage eines Pendlerfahrplans</li>
-            <li>DM-Request: Anfrage eine Abfahrtsmonitors</li>
-            <li>DMTTP-Request: Anfrage des Soll-Abfahrtsmonitors</li>
-            <li>StopTimetable-Request: Anfrage eines Aushangfahrplans für eine Linie</li>
-            <li>StopList-Request: Anfrage aller Haltestellen eines Verbundsgebiets</li>
-            <li>SystemInfo-Request: Anfrage von Systeminformation</li>
-            <li>AddInfo-Request: Anfrage aktueller Meldungen</li>
-            <li>Map-Request: Anfrage von Karten</li>
-        </ul>
-        <p>Gegenwärtig ertüchtigen wir unsere Systemarchitektur, um die EFA-XML-Schnittstelle im Rahmen von OpenVRR für den produktiven Betrieb bereitstellen zu können. Daher darf diese Schnittstelle zum Fahrgastinformationssystem darf nicht für den produktiven Betrieb verwendet werden.</p>
-        <p>Sollten die EFA-XML-Schnittstelle bereits jetzt für den produktiven Betrieb benötigt werden, dann bitten um Kontaktaufnahme per Mail. </p>
+        <p>In der <a href="http://www.openvrr.de/dataset/dokumentationen">Schnittstellendokumentation</a> werden alle Parameter zur Nutzung beschrieben.</p>
+
+        <p>Gegenwärtig ertüchtigen wir unsere Systemarchitektur, um die EFA-XML-Schnittstelle im Rahmen von OpenVRR für den produktiven Betrieb bereitstellen zu können.</p>
+        <p>Sollten die EFA-XML-Schnittstelle bereits jetzt für den produktiven Betrieb benötigt werden, dann bitten um Kontaktaufnahme <a href="mailto:openvrr@vrr.de">per Mail</a>. </p>
     </div>
   </article>
 {% endblock %}
