@@ -75,3 +75,15 @@ msgstr "Nutzungsbedingungen"
 #: ckanext/vrr/templates/footer.html:16
 msgid "Netiquette"
 msgstr "Netiquette"
+
+#: ckanext/vrr/templates/user/new_user_form.html:11
+msgid "By checking the checkbox below, you agree with the"
+msgstr "Durch Bestätigung des Kästchens geben Sie an, dass Sie den"
+
+#: ckanext/vrr/templates/user/new_user_form.html:11
+msgid "Terms of Use"
+msgstr "Nutzungsbestimmungen zustimmen"
+
+#: ckanext/vrr/templates/user/new_user_form.html:11
+msgid "I agree with the Terms of Use"
+msgstr "Ich stimme den Nutzungsbedingungen zu"
