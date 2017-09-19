@@ -99,3 +99,7 @@ msgstr "Zustimmen"
 #: ckanext/vrr/templates/package/snippets/terms.html:10
 msgid "Decline"
 msgstr "Ablehnen"
+
+#: ckanext/vrr/templates/user/new.html:28
+msgid "Create datasets, groups and other exciting things"
+msgstr "<p>Der Testserver unseres Fahrgastinformationssystems steht Ihnen ohne eine Registrierung zur Verfügung. Mit den Daten aus dem Testsystem haben Sie die Möglichkeit Ihre programmierten Anwendungen ausgiebig zu testen.</p> <p>Wenn Ihre Anwendung stabil läuft und Nutzern öffentlich angeboten werden soll, nutzen Sie ausschließlich unseren Produktivserver. Dafür ist eine Registrierung erforderlich. Durch die Nutzung des Produktivservers ist die Plausibilität der Anfragen sichergestellt. Die Verfügbarkeit dieses Servers entspricht normalem Standard. Sowohl für die Nutzung unseres Testservers als auch des Produktivservers gelten die Nutzungsbedingungen.</p> <p>Darüber hinaus haben registrierte Nutzer die Möglichkeit ihre Anwendung zu präsentieren.</p>"

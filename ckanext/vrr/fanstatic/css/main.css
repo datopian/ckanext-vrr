@@ -112,3 +112,7 @@ body {
  div .inner > h3{
     text-align: center;
  }
+
+ .margin-fix {
+   margin-top: -95px;
+ }
