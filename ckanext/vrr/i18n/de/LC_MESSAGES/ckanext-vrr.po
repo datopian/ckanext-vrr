@@ -88,15 +88,15 @@ msgstr "Nutzungsbestimmungen zustimmen."
 msgid "I agree with the Terms of Use"
 msgstr "Ich stimme den Nutzungsbedingungen zu."
 
-#: ckanext/vrr/templates/package/snippets/terms.html:7
-msgid "In order to download the resource, you must accept the"
-msgstr "Um die Ressource herunterzualden, müssen Sie den"
+#: ckanext/vrr/templates/package/snippets/terms.html:6
+msgid "I have read the license terms"
+msgstr "Ich habe die Lizenzbedingungen zu Kenntnis genommen"
 
-#: ckanext/vrr/templates/package/snippets/terms.html:11
+#: ckanext/vrr/templates/package/snippets/terms.html:10
 msgid "Accept"
 msgstr "Zustimmen"
 
-#: ckanext/vrr/templates/package/snippets/terms.html:10
+#: ckanext/vrr/templates/package/snippets/terms.html:9
 msgid "Decline"
 msgstr "Ablehnen"
 
