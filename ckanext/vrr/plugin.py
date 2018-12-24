@@ -1,7 +1,5 @@
 import ckan.plugins.toolkit as toolkit
 import ckan.plugins as p
-from ckan.config.routing import SubMapper
-
 
 
 if p.toolkit.check_ckan_version(min_version='2.5'):
@@ -16,7 +14,6 @@ else:
 class VrrPlugin(VrrPluginBase):
     p.implements(p.IConfigurer)
     p.implements(p.IRoutes, inherit=True)
-    p.implements(p.IActions)
 
 
     # IConfigurer
@@ -37,3 +34,4 @@ class VrrPlugin(VrrPluginBase):
                     '/api',
                     controller=vrr_controller,
                     action='api')
+        return map
