@@ -1,4 +1,4 @@
-<div id="terms" class="modal fade">
+<div id="terms-{{res.id}}" class="modal fade">
     <div class="modal-header">
         <button style="margin-top: -9px;" type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
     </div>
@@ -7,6 +7,6 @@
     </div>
     <div class="modal-footer">
         <a class="btn" type="button" class="close" data-dismiss="modal" aria-hidden="true">{{_("Decline")}}</a>
-        <a id="closemodal" type="button" href="{{ res.url }}" target="_blank" class="modal-close btn btn-primary" onclick="$('#terms').modal('hide')">{{_("Accept")}}</a>
+        <a id="closemodal" type="button" href="{{ res.url }}" target="_blank" class="modal-close btn btn-primary" onclick="$('#terms-{{res.id}}').modal('hide')">{{_("Accept")}}</a>
     </div>
 </div>

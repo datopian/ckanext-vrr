@@ -41,7 +41,7 @@
       {% if res.url and h.is_url(res.url) %}
       <li>
         {% if not c.user %}
-          <a data-toggle="modal" data-target="#terms">
+          <a data-toggle="modal" data-target="#terms-{{res.id}}">
         {% else %}
           <a href="{{ res.url }}" class="resource-url-analytics" target="_blank">
         {% endif %}
